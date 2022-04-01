@@ -46,7 +46,10 @@ def evaluarDatos(datos):
 
         print('--------------------------------------------')
         imprimirDatos(listnull)
+        print('Numero de datos modificados:', len(listnull))
+        print('Numero de datos totales:', len(datos))
         print('La moda es =', moda)
+
         print('--------------------------------------------')
     except Exception as ex:
         print(ex)
